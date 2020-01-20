@@ -158,7 +158,7 @@ public class ShortUrlController {
     @ApiOperation(value = "删除最近 i 天的数据")
     @RequestMapping(value = "/{i}", method = RequestMethod.DELETE)
     Result shortURL(@PathVariable Integer i) {
-        Long day = 86400000l;
+        Long day = 86400000L;
         if (null == i) {
             return Result.fail("请求为空");
         }
