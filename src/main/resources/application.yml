@@ -1,0 +1,12 @@
+
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 307185474
+    password: ibaninxowdmxbhjj
+    default-encoding: UTF-8
+
+# 发送账号
+mail:
+  fromMail:
+    addr: 307185474@qq.com
